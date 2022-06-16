@@ -60,6 +60,7 @@ namespace rock_paper_scissors
             this.btn_Start.TabIndex = 2;
             this.btn_Start.Text = "Камень Ножницы Бумага";
             this.btn_Start.UseVisualStyleBackColor = true;
+            this.btn_Start.Click += new System.EventHandler(this.btn_Start_Click);
             // 
             // listBox_Rezal
             // 
@@ -84,6 +85,7 @@ namespace rock_paper_scissors
             this.MinimumSize = new System.Drawing.Size(300, 200);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
